@@ -17,3 +17,6 @@ plot(collector_voltage_50,collector_current_50);
 plot(collector_voltage_75,collector_current_75);
 
 legend('ib = 25','ib = 50','ib =75')
+xlabel('V_C_E (V)');
+ylabel('I_C (A)');
+title('V_C_E vs I_C for different I_b');
